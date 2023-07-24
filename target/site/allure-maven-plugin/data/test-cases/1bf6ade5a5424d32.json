@@ -1,0 +1,84 @@
+{
+  "uid" : "1bf6ade5a5424d32",
+  "name" : "Получение списка заказов",
+  "fullName" : "scooter.OrderGetListTest.orderListCanBeReturnedSuccess",
+  "historyId" : "caa2a1cf1cc15f785f6be09d51761d43",
+  "time" : {
+    "start" : 1682604211797,
+    "stop" : 1682604218641,
+    "duration" : 6844
+  },
+  "description" : "Проверяется возможность получения спика заказов",
+  "descriptionHtml" : "<p>Проверяется возможность получения спика заказов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяется возможность получения спика заказов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка заказов",
+      "time" : {
+        "start" : 1682604211797,
+        "stop" : 1682604218530,
+        "duration" : 6733
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "scooter"
+  }, {
+    "name" : "testClass",
+    "value" : "scooter.OrderGetListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderListCanBeReturnedSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "scooter.OrderGetListTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-63PAKCB"
+  }, {
+    "name" : "thread",
+    "value" : "13956@DESKTOP-63PAKCB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bf6ade5a5424d32.json",
+  "parameterValues" : [ ]
+}

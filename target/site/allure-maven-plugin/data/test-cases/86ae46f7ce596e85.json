@@ -1,0 +1,87 @@
+{
+  "uid" : "86ae46f7ce596e85",
+  "name" : "Создание заказа",
+  "fullName" : "scooter.OrderCreateTest.orderCanBeCreated[Создание заказа с цветом: Серый]",
+  "historyId" : "ddb770e91a8e1f77bbf38190329f6ea6",
+  "time" : {
+    "start" : 1682604211295,
+    "stop" : 1682604211523,
+    "duration" : 228
+  },
+  "description" : "Проверяется возможность создания заказа",
+  "descriptionHtml" : "<p>Проверяется возможность создания заказа</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяется возможность создания заказа",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1682604211295,
+        "stop" : 1682604211502,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "models.Order@1c3400df"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "scooter"
+  }, {
+    "name" : "testClass",
+    "value" : "scooter.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCanBeCreated[Создание заказа с цветом: Серый]"
+  }, {
+    "name" : "suite",
+    "value" : "scooter.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-63PAKCB"
+  }, {
+    "name" : "thread",
+    "value" : "13956@DESKTOP-63PAKCB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86ae46f7ce596e85.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scooter",
+    "children" : [ {
+      "name" : "createTwoEqualCouriersFail",
+      "uid" : "f3a15613c1e48487",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1682604139316,
+        "stop" : 1682604145953,
+        "duration" : 6637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createCourierNoPasswordFail",
+      "uid" : "afa8927852615556",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604146149,
+        "stop" : 1682604146416,
+        "duration" : 267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createCourierNoLoginFail",
+      "uid" : "df5707175a67c4b6",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604146425,
+        "stop" : 1682604146704,
+        "duration" : 279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCanBeCreated",
+      "uid" : "75e57e89f267d3df",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604146708,
+        "stop" : 1682604147526,
+        "duration" : 818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthIncorrectLoginFail",
+      "uid" : "2c2fc37546c78ba2",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604147533,
+        "stop" : 1682604148012,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthIncorrectPasswordFail",
+      "uid" : "209a8dff348c6f45",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604148015,
+        "stop" : 1682604148499,
+        "duration" : 484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthWithoutPasswordFail",
+      "uid" : "afa325b4ff722401",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1682604148503,
+        "stop" : 1682604208945,
+        "duration" : 60442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierNotCreatedAuthFailed",
+      "uid" : "b163a28b55ceeb7c",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604208949,
+        "stop" : 1682604209225,
+        "duration" : 276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCanBeAuthorized",
+      "uid" : "b1c25dbe5501bcd5",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604209228,
+        "stop" : 1682604209992,
+        "duration" : 764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthWithoutLoginFail",
+      "uid" : "98ff30c157986ec3",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604209998,
+        "stop" : 1682604210509,
+        "duration" : 511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCanBeCreated[Создание заказа с цветом: Серый и черный]",
+      "uid" : "a236300b0000a891",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604210546,
+        "stop" : 1682604210760,
+        "duration" : 214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCanBeCreated[Создание заказа с цветом: Черный и серый]",
+      "uid" : "a815e1c6fe1a4d1a",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604210763,
+        "stop" : 1682604211002,
+        "duration" : 239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCanBeCreated[Создание заказа с цветом: Черный]",
+      "uid" : "860c69278f51f07a",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604211005,
+        "stop" : 1682604211285,
+        "duration" : 280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCanBeCreated[Создание заказа с цветом: Серый]",
+      "uid" : "86ae46f7ce596e85",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604211295,
+        "stop" : 1682604211523,
+        "duration" : 228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderCanBeCreated[Создание заказа с цветом: Без цвета]",
+      "uid" : "d7bbfbc453372686",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604211527,
+        "stop" : 1682604211792,
+        "duration" : 265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "orderListCanBeReturnedSuccess",
+      "uid" : "1bf6ade5a5424d32",
+      "parentUid" : "1f6099c4c3f3ebbacfe0944d04964e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682604211797,
+        "stop" : 1682604218641,
+        "duration" : 6844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1f6099c4c3f3ebbacfe0944d04964e7a"
+  } ]
+}

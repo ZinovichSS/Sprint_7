@@ -1,0 +1,161 @@
+[ {
+  "uid" : "1bf6ade5a5424d32",
+  "name" : "Получение списка заказов",
+  "time" : {
+    "start" : 1682604211797,
+    "stop" : 1682604218641,
+    "duration" : 6844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7bbfbc453372686",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1682604211527,
+    "stop" : 1682604211792,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c2fc37546c78ba2",
+  "name" : "Авторизация курьера c некорректным логином",
+  "time" : {
+    "start" : 1682604147533,
+    "stop" : 1682604148012,
+    "duration" : 479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a236300b0000a891",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1682604210546,
+    "stop" : 1682604210760,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "860c69278f51f07a",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1682604211005,
+    "stop" : 1682604211285,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a815e1c6fe1a4d1a",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1682604210763,
+    "stop" : 1682604211002,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3a15613c1e48487",
+  "name" : "Создание двух одинаковых курьеров",
+  "time" : {
+    "start" : 1682604139316,
+    "stop" : 1682604145953,
+    "duration" : 6637
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "75e57e89f267d3df",
+  "name" : "Создание курьера",
+  "time" : {
+    "start" : 1682604146708,
+    "stop" : 1682604147526,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afa325b4ff722401",
+  "name" : "Авторизация курьера без пароля",
+  "time" : {
+    "start" : 1682604148503,
+    "stop" : 1682604208945,
+    "duration" : 60442
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "98ff30c157986ec3",
+  "name" : "Авторизация курьера без логина",
+  "time" : {
+    "start" : 1682604209998,
+    "stop" : 1682604210509,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "209a8dff348c6f45",
+  "name" : "Авторизация курьера c некорректным паролем",
+  "time" : {
+    "start" : 1682604148015,
+    "stop" : 1682604148499,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df5707175a67c4b6",
+  "name" : "Создание курьера без логина",
+  "time" : {
+    "start" : 1682604146425,
+    "stop" : 1682604146704,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afa8927852615556",
+  "name" : "Создание курьера без пароля",
+  "time" : {
+    "start" : 1682604146149,
+    "stop" : 1682604146416,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b163a28b55ceeb7c",
+  "name" : "Авторизация несуществующего курьера",
+  "time" : {
+    "start" : 1682604208949,
+    "stop" : 1682604209225,
+    "duration" : 276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c25dbe5501bcd5",
+  "name" : "Авторизация курьера",
+  "time" : {
+    "start" : 1682604209228,
+    "stop" : 1682604209992,
+    "duration" : 764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86ae46f7ce596e85",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1682604211295,
+    "stop" : 1682604211523,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
