@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<...гин уже используется[]> but was:<...гин уже используется[. Попробуйте другой.]>",
+      "children" : [ {
+        "name" : "Создание двух одинаковых курьеров",
+        "uid" : "f3a15613c1e48487",
+        "parentUid" : "26fa1a768f16a42f193de75641e1cb02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1682604139316,
+          "stop" : 1682604145953,
+          "duration" : 6637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26fa1a768f16a42f193de75641e1cb02"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke the path method because no content-type was present in the response and no default parser has been set.\n\nYou can specify a default parser using e.g.:\nRestAssured.defaultParser = Parser.JSON;\n",
+      "children" : [ {
+        "name" : "Авторизация курьера без пароля",
+        "uid" : "afa325b4ff722401",
+        "parentUid" : "cbe5a5f312060433358505071d02463f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682604148503,
+          "stop" : 1682604208945,
+          "duration" : 60442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbe5a5f312060433358505071d02463f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

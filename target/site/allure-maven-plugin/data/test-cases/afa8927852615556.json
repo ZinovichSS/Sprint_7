@@ -1,0 +1,87 @@
+{
+  "uid" : "afa8927852615556",
+  "name" : "Создание курьера без пароля",
+  "fullName" : "scooter.CourierCreateTest.createCourierNoPasswordFail",
+  "historyId" : "d4081fcbbea7609c7a516f8ba3329713",
+  "time" : {
+    "start" : 1682604146149,
+    "stop" : 1682604146416,
+    "duration" : 267
+  },
+  "description" : "Проверяется ошибка при попытке создать курьера без обязательного поля password",
+  "descriptionHtml" : "<p>Проверяется ошибка при попытке создать курьера без обязательного поля password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяется ошибка при попытке создать курьера без обязательного поля password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1682604146150,
+        "stop" : 1682604146391,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "models.Courier@54780c40"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "scooter"
+  }, {
+    "name" : "testClass",
+    "value" : "scooter.CourierCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createCourierNoPasswordFail"
+  }, {
+    "name" : "suite",
+    "value" : "scooter.CourierCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-63PAKCB"
+  }, {
+    "name" : "thread",
+    "value" : "13956@DESKTOP-63PAKCB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afa8927852615556.json",
+  "parameterValues" : [ ]
+}
